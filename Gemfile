@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
-
+ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use jdbcpostgresql as the database for Active Record
+gem 'puma'
+# Puma
 gem 'activerecord-jdbcpostgresql-adapter'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
